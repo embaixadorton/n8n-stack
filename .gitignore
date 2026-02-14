@@ -1,1 +1,23 @@
+# Environment variables
 .env
+.env.local
+.env.production
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Local data directories (if using bind mounts)
+data/
+n8n-data/
+postgres-data/
+.n8n/
+files/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
